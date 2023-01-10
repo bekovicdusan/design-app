@@ -1,0 +1,19 @@
+.header-wrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 80px;
+  box-shadow: 1px 0px 8px 2px $shadow;
+  .header {
+    width: 85vw;
+    display: flex;
+    justify-content: flex-start;
+    .logo {
+      img {
+        width: 180px;
+      }
+    }
+  }
+}
